@@ -1,0 +1,8 @@
+def simple_interest(principal, rate, time):
+    return (principal * rate * time) / 100
+
+x=int(input())
+y=int(input())
+z=int(input())
+
+print("Simple Interest (P=1000, R=5%, T=2 years):", simple_interest(x, y, z))
